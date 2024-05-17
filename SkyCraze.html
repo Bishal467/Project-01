@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkyCraze</title>
+  <link rel="stylesheet" href="SkyCraze.css">
+</head>
+<body>
+  <h1 class="name">SkyCraze</h1>
+  <div class="card">
+    <div class="search">
+      <input type="text" placeholder="Enter city name" spellcheck="false">
+      <button  class="clicked"><img src="images\search.png" /></button>
+      <button id="locationBtn" class="clicked"><img src="images\location.png" ></button>
+    </div>
+    <div class="error">
+      <p>Invalid city name. Please re-enter the city name</p>
+    </div>
+    <div class="weather">
+      <img src="images\clear.png" class="weather-icon" >
+      <h1 class="temp">22°C</h1>
+      <h2 class="city">Rajshahi</h2>
+      <p class="margin1">The other weather conditions of your searched location</p>
+      <div class="details">
+        <div class="col">
+          <div>
+            <p class="feels_like"></p>
+            <p>Feels_Like</p>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <p class="max_temp"></p>
+            <p>Max_Temp</p>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <p class="min_temp"></p>
+            <p>Min_Temp</p>
+          </div>
+        </div>
+      </div>
+      <div class="details">
+        <div>
+          <p class="pressure"></p>
+          <p>Pressure</p>
+        </div>
+        <div>
+          <p class="sunrise"></p>
+          <p>Sunrise</p>
+        </div>
+        <div>
+          <p class="sunset"></p>
+          <p>Sunset</p>
+        </div>
+      </div>
+      <div class="details" id="margin">
+        <div class="col">
+          <img src="images/humidity.png" >
+          <div>
+            <p class="humidity">50%</p>
+            <p>Humidity</p>
+          </div>
+        </div>
+        <div class="col">
+          <img src="images/wind.png">
+          <div>
+            <p class="wind">50 km/h</p>
+            <p>Wind speed</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1>The next 6 days forecast of your searched location</h1>
+    <div class="forecast">
+    </div>
+  </div>
+  <script src="skycraze.js"></script>
+</body>
+</html>

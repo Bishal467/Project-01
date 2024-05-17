@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.name{
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    color:#ebfffc;
+}
+body {
+    background: #222;
+}
+
+.card {
+    width: 92%;
+    background: rgb(26, 26, 75);
+    color: #ffffff;
+    margin: 10px auto 10px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input {
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #878282;
+    padding: 10px 25px;
+    height: 45px;
+    border-radius: 15px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #b0bab8;
+    border-radius: 40%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button:hover{
+    background-color: rgb(147, 145, 156);
+}
+
+.search button img {
+    width: 15px;
+}
+
+
+
+.weather-icon {
+    width: 400px;
+    margin-top: 25px;
+}
+
+.weather h1 {
+    font-size: 90px;
+    font-weight: 500
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(43, 43, 120);
+    border: 6px solid rgb(135, 127, 127);
+    padding: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: large;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.humidity, .wind {
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.forecast{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(43, 43, 120);
+    border: 6px solid rgb(135, 127, 127);
+    padding: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: large;
+}
+#margin{
+    margin-bottom: 50px;
+}
+.margin1{
+    margin-top: 50px;
+    font-size: x-large;
+}
